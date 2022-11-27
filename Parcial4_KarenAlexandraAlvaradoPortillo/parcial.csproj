@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{22383A0E-968C-4986-AE30-53D174A5C942}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>parcial</RootNamespace>
+    <AssemblyName>parcial</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="boton10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="boton10.Designer.cs">
+      <DependentUpon>boton10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="boton11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="boton11.Designer.cs">
+      <DependentUpon>boton11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="boton12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="boton12.Designer.cs">
+      <DependentUpon>boton12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="boton6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="boton6.Designer.cs">
+      <DependentUpon>boton6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="boton1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="boton1.Designer.cs">
+      <DependentUpon>boton1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="boton2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="boton2.Designer.cs">
+      <DependentUpon>boton2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="boton3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="boton3.Designer.cs">
+      <DependentUpon>boton3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="boton4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="boton4.Designer.cs">
+      <DependentUpon>boton4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="boton5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="boton5.Designer.cs">
+      <DependentUpon>boton5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="boton7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="boton7.Designer.cs">
+      <DependentUpon>boton7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="boton8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="boton8.Designer.cs">
+      <DependentUpon>boton8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="boton9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="boton9.Designer.cs">
+      <DependentUpon>boton9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="boton10.resx">
+      <DependentUpon>boton10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boton11.resx">
+      <DependentUpon>boton11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boton12.resx">
+      <DependentUpon>boton12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boton6.resx">
+      <DependentUpon>boton6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boton1.resx">
+      <DependentUpon>boton1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boton2.resx">
+      <DependentUpon>boton2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boton3.resx">
+      <DependentUpon>boton3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boton4.resx">
+      <DependentUpon>boton4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boton5.resx">
+      <DependentUpon>boton5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boton7.resx">
+      <DependentUpon>boton7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boton8.resx">
+      <DependentUpon>boton8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="boton9.resx">
+      <DependentUpon>boton9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\archivo-de-registro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recurso 1%403x-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recurso 12%403x-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recurso 13%403x-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recurso 14%403x-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recurso 15%403x-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recurso 17%403x-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recurso 18%403x-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recurso 20%403x-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recurso 16%403x-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recurso 19%403x-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recurso 21%403x-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recurso 22%403x-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recurso 23%403x-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recurso 24%403x-8.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
